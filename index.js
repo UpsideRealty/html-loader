@@ -142,7 +142,8 @@ module.exports = function(content) {
 
  	return exportsString + content.replace(/xxxHTMLLINKxxx[0-9\.]+xxx/g, function(match) {
 		if(!data[match]) return match;
-		return '" + require(' + JSON.stringify(loaderUtils.urlToRequest(data[match], root)) + ') + "';
+		
+		return loaderUtils.urlToRequest(data[match], root);
 	}) + ";";
 
 }
