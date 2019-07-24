@@ -1,6 +1,6 @@
 {
   "name": "@nurturecloud/html-loader",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": "Tobias Koppers @sokra",
   "license": "MIT",
   "description": "html loader module for webpack",
