@@ -1,5 +1,5 @@
 {
-  "name": "html-loader",
+  "name": "@nurturecloud/html-loader",
   "version": "0.5.1",
   "author": "Tobias Koppers @sokra",
   "license": "MIT",
